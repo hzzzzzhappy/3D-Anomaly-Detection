@@ -43,15 +43,16 @@ We organize the repository into the following sections:
 
 ## Feature-Embedding-Methods
 
-### 1. PatchCore
+### 1. [PatchCore (Paper)](https://arxiv.org/abs/2106.08265)
 - **Description**: An extension of a 2D anomaly detection method, PatchCore uses a memory bank constructed from features to detect anomalies in 3D point clouds.
 - **Evaluation**: The method shows limited robustness when applied to 3D data, as irregular point cloud structures make it difficult for the memory bank to accurately represent normal features across different object regions.
+- It is worth mentioning that the implementation of patchcore on 3D is included in the baseline method of [Real3D](https://github.com/m-3lab/real3d-ad).
 
-### 2. Reg-AD
+### 2. [Reg-AD (Paper)](https://arxiv.org/abs/2309.13226)
 - **Description**: Reg-AD performs point cloud registration followed by anomaly detection through dual testing using both point coordinates and PointMAE transfer learning. The final decision is based on combining both test results.
 - **Evaluation**: As the first attempt at using a memory bank on a real 3D dataset, Reg-AD shows promise, but its dependence on registration introduces sensitivity to rotation, suggesting future work should focus on improving representations with rotational invariance.
 
-### 3. Group3AD
+### 3. Group3AD (Paper)
 - **Description**: Group3AD improves upon Reg-AD by clustering feature space into multiple groups and aligning them geometrically. This allows for better characterization of point cloud features before detecting anomalies.
 - **Evaluation**: By clustering the feature space, Group3AD achieves more refined feature representation, which leads to improved performance in anomaly detection compared to Reg-AD.
 
