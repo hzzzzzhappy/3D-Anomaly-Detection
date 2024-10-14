@@ -1,6 +1,13 @@
 # 3D Anomaly Detection Methods
 Welcome to the **3D Anomaly Detection** repository! This GitHub repository is dedicated to collecting, organizing, and evaluating various methods used for 3D anomaly detection. If you find this repository helpful, please consider giving it a ⭐ Star!
-We will organize it into the following forms: data sets (including the introduction and now SOTA), feature embedding methods, and reconstruction methods.
+We organize the repository into the following sections: 
+
+- [Datasets](##Datasets)
+- [Feature Embedding Methods](##Feature-Embedding-Methods)
+- [Reconstruction Methods](#Reconstruction-Methods)
+- [Traditional Methods](#Traditional-method)
+- [LLM Methods](#LLM-method)
+
 
 ## Datasets
 
@@ -34,7 +41,7 @@ We will organize it into the following forms: data sets (including the introduct
 - **Categories**: 40 object classes with 6 types of anomalies. Point clouds contain 8K-30K points.
 - **Link**: [Anomaly-ShapeNet Dataset (Githbu)](https://github.com/chopper-233/anomaly-shapenet)
 
-## Feature Embedding Methods
+## Feature-Embedding-Methods
 
 ### 1. PatchCore
 - **Description**: An extension of a 2D anomaly detection method, PatchCore uses a memory bank constructed from features to detect anomalies in 3D point clouds.
@@ -61,7 +68,7 @@ We will organize it into the following forms: data sets (including the introduct
 - **Evaluation**: This method provides a significant contribution by emphasizing the relationship between 2D and 3D defects. However, the scale and complexity of the dataset suggest that this work may be geared towards preparing for large-scale model development in the future.
 ---
 
-## Reconstruction Methods
+## Reconstruction-Methods
 
 ### Reconstruction in Feature Space
 
@@ -83,16 +90,16 @@ We will organize it into the following forms: data sets (including the introduct
 
 ---
 
-## Traditional method
+## Traditional-method
 
 ### 1. BTF
 - **Description**: BTF (Basic Tensor Field) is an analytical method that emphasizes the importance of 3D structure in anomaly detection. It directly computes feature descriptors using mathematical formulas without the need for training.
 - **Evaluation**: As a traditional method, BTF underscores the critical role of 3D structural information in detecting anomalies. However, it lacks cross-sample robustness, which is a limitation of non-learning-based approaches in modern anomaly detection tasks.
 
 
-## LLM method
+## LLM-method
 
-### 3. PointAD
+### 1. PointAD
 - **Description**: PointAD leverages CLIP for zero-shot anomaly detection by projecting 3D structures into 2D for easier anomaly recognition, based on 2D understanding.
 - **Evaluation**: Although the use of 2D projections can simplify the anomaly detection task, it inherently leads to a loss of 3D structural information, which limits the method's effectiveness in fully leveraging 3D data.
 
