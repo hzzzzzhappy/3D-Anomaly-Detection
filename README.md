@@ -2,8 +2,8 @@
 Welcome to the **3D Anomaly Detection** repository! This GitHub repository is dedicated to collecting, organizing, and evaluating various methods used for 3D anomaly detection. If you find this repository helpful, please consider giving it a ⭐ Star!
 We organize the repository into the following sections: 
 
-- [Datasets](##Datasets)
-- [Feature Embedding Methods](##Feature-Embedding-Methods)
+- [Datasets](#Datasets)
+- [Feature Embedding Methods](#Feature-Embedding-Methods)
 - [Reconstruction Methods](#Reconstruction-Methods)
 - [Traditional Methods](#Traditional-method)
 - [LLM Methods](#LLM-method)
@@ -33,7 +33,7 @@ We organize the repository into the following sections:
 - **Year**: 2023
 - **Description**: A realistic dataset obtained from scanned industrial and everyday products. The dataset provides large point clouds, with training sets having more points than the test sets, making it more challenging for anomaly detection.
 - **Categories**: 12 object classes, each with 2 types of anomalies. Point clouds range from 35K to 780K points.
-- **Link**: [Real3D-AD Dataset (Github)]([https://github.com/m-3lab/real3d-ad)
+- **Link**: [Real3D-AD Dataset (Github)](https://github.com/m-3lab/real3d-ad)
 
 ### 5. Anomaly-ShapeNet
 - **Year**: 2023
