@@ -39,7 +39,7 @@ We organize the repository into the following sections:
 - **Year**: 2023
 - **Description**: A synthetic 3D dataset based on the ShapeNet dataset, augmented by sculpting anomalies into original 3D models. This dataset focuses on testing the robustness of models by reducing point density.
 - **Categories**: 40 object classes with 6 types of anomalies. Point clouds contain 8K-30K points.
-- **Link**: [Anomaly-ShapeNet Dataset (Githbu)](https://github.com/chopper-233/anomaly-shapenet)
+- **Link**: [Anomaly-ShapeNet Dataset (Github)](https://github.com/chopper-233/anomaly-shapenet)
 
 ## Feature-Embedding-Methods
 
