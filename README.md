@@ -60,7 +60,7 @@ We organize the repository into the following sections:
 - **Description**: M3DM aims to align RGB and 3D information for anomaly detection. It leverages contrastive learning and builds multiple memory banks for 3D and RGB information using transfer learning techniques such as PointMAE and ViT.
 - **Evaluation**: While M3DM offers an effective approach for integrating multimodal information, the effectiveness of the fused modalities remains questionable, warranting further exploration into more sophisticated fusion strategies.
 
-### 5. CPMF
+### 5. [CPMF (Paper)](https://arxiv.org/abs/2303.13194v1)
 - **Description**: CPMF enhances 3D anomaly detection by generating 2D projections of the 3D object and aligning the surface views with 3D structures to improve the detection of anomalies.
 - **Evaluation**: Although it provides an innovative approach to bridging 2D and 3D information, experimental results are inconsistent, and the code implementation does not fully align with the paper, which raises concerns about reproducibility.
 
@@ -77,7 +77,6 @@ We organize the repository into the following sections:
 - **Description**: ShapeGuided utilizes both shape and appearance experts to jointly predict 3D and RGB anomalies. The method reconstructs signed distance functions (SDF) in the feature space using PointNet embeddings.
 - **Evaluation**: As an initial attempt at feature-space reconstruction, ShapeGuided benefits from the alignment in the MvTec3D-AD dataset, which simplifies the reconstruction process. However, its applicability to more complex datasets remains uncertain.
 
----
 
 ### Reconstruction in Raw Point Clouds
 
@@ -93,11 +92,17 @@ We organize the repository into the following sections:
 - **Description**: SplatPose uses multi-view images to generate 3D images, comparing them with normal images to find anomalies.
 - **Evaluation**: The feasibility of 2Dto3D in anomaly detection was proved by an attempt using Gaussian spatter.
 
+---
+
+
 ## Traditional-method
 
 ### 1. [BTF (Paper)](https://arxiv.org/abs/2203.05550v3)
 - **Description**: BTF (Basic Tensor Field) is an analytical method that emphasizes the importance of 3D structure in anomaly detection. It directly computes feature descriptors using mathematical formulas without the need for training.
 - **Evaluation**: As a traditional method, BTF underscores the critical role of 3D structural information in detecting anomalies. However, it lacks cross-sample robustness, which is a limitation of non-learning-based approaches in modern anomaly detection tasks.
+
+
+---
 
 
 ## LLM-method
