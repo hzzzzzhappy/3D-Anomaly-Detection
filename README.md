@@ -52,11 +52,11 @@ We organize the repository into the following sections:
 - **Description**: Reg-AD performs point cloud registration followed by anomaly detection through dual testing using both point coordinates and PointMAE transfer learning. The final decision is based on combining both test results.
 - **Evaluation**: As the first attempt at using a memory bank on a real 3D dataset, Reg-AD shows promise, but its dependence on registration introduces sensitivity to rotation, suggesting future work should focus on improving representations with rotational invariance.
 
-### 3. Group3AD (Paper)
+### 3. [Group3AD (Paper)](https://arxiv.org/abs/2408.04604v1)
 - **Description**: Group3AD improves upon Reg-AD by clustering feature space into multiple groups and aligning them geometrically. This allows for better characterization of point cloud features before detecting anomalies.
 - **Evaluation**: By clustering the feature space, Group3AD achieves more refined feature representation, which leads to improved performance in anomaly detection compared to Reg-AD.
 
-### 4. M3DM
+### 4. [M3DM (Paper)](https://arxiv.org/abs/2303.00601v2)
 - **Description**: M3DM aims to align RGB and 3D information for anomaly detection. It leverages contrastive learning and builds multiple memory banks for 3D and RGB information using transfer learning techniques such as PointMAE and ViT.
 - **Evaluation**: While M3DM offers an effective approach for integrating multimodal information, the effectiveness of the fused modalities remains questionable, warranting further exploration into more sophisticated fusion strategies.
 
@@ -64,7 +64,7 @@ We organize the repository into the following sections:
 - **Description**: CPMF enhances 3D anomaly detection by generating 2D projections of the 3D object and aligning the surface views with 3D structures to improve the detection of anomalies.
 - **Evaluation**: Although it provides an innovative approach to bridging 2D and 3D information, experimental results are inconsistent, and the code implementation does not fully align with the paper, which raises concerns about reproducibility.
 
-### 6. Looking3D
+### 6. [Looking3D (Paper)](https://arxiv.org/abs/2406.19393v1)
 - **Description**: Looking3D focuses on aligning 2D and 3D anomalies. It introduces a large dataset called BrokenChairs-180K, which pairs 180,000 2D images of defective objects with 3D shapes, enabling multimodal anomaly detection.
 - **Evaluation**: This method provides a significant contribution by emphasizing the relationship between 2D and 3D defects. However, the scale and complexity of the dataset suggest that this work may be geared towards preparing for large-scale model development in the future.
 ---
@@ -73,7 +73,7 @@ We organize the repository into the following sections:
 
 ### Reconstruction in Feature Space
 
-### 1. ShapeGuided
+### 1. [ShapeGuided (Paper)](https://proceedings.mlr.press/v202/chu23b.html)
 - **Description**: ShapeGuided utilizes both shape and appearance experts to jointly predict 3D and RGB anomalies. The method reconstructs signed distance functions (SDF) in the feature space using PointNet embeddings.
 - **Evaluation**: As an initial attempt at feature-space reconstruction, ShapeGuided benefits from the alignment in the MvTec3D-AD dataset, which simplifies the reconstruction process. However, its applicability to more complex datasets remains uncertain.
 
@@ -81,26 +81,28 @@ We organize the repository into the following sections:
 
 ### Reconstruction in Raw Point Clouds
 
-### 1. IMRNet
+### 1. [IMRNet (Paper)](https://openaccess.thecvf.com//content/CVPR2024/html/Li_Towards_Scalable_3D_Anomaly_Detection_and_Localization_A_Benchmark_via_CVPR_2024_paper.html)
 - **Description**: IMRNet, based on modifications of PointMAE, iteratively reconstructs masked point clouds, rebuilding 40% of the points at each iteration. The final anomaly detection is done by comparing the reconstructed point cloud to the original.
 - **Evaluation**: This method marks an important first step in iterative point cloud reconstruction for anomaly detection. However, the feasibility of achieving highly accurate reconstructions, especially in large-scale datasets, remains in question.
 
-### 2. R3D-AD
+### 2. [R3D-AD (Paper)](https://arxiv.org/html/2407.10862v1)
 - **Description**: R3D-AD employs a diffusion model inspired by heat diffusion to progressively refine point cloud reconstructions. The method compares full-mask reconstructions with the original point cloud to identify anomalies.
 - **Evaluation**: While R3D-AD builds on ideas introduced by IMRNet and achieves promising results, the simplicity of relying solely on PointNet and distillation processes to achieve high performance has been met with skepticism, indicating a need for more rigorous validation.
 
----
+### 3. [SplatPose (Paper)](https://arxiv.org/abs/2404.06832v1)
+- **Description**: SplatPose uses multi-view images to generate 3D images, comparing them with normal images to find anomalies.
+- **Evaluation**: The feasibility of 2Dto3D in anomaly detection was proved by an attempt using Gaussian spatter.
 
 ## Traditional-method
 
-### 1. BTF
+### 1. [BTF (Paper)](https://arxiv.org/abs/2203.05550v3)
 - **Description**: BTF (Basic Tensor Field) is an analytical method that emphasizes the importance of 3D structure in anomaly detection. It directly computes feature descriptors using mathematical formulas without the need for training.
 - **Evaluation**: As a traditional method, BTF underscores the critical role of 3D structural information in detecting anomalies. However, it lacks cross-sample robustness, which is a limitation of non-learning-based approaches in modern anomaly detection tasks.
 
 
 ## LLM-method
 
-### 1. PointAD
+### 1. [PointAD (Paper)](https://arxiv.org/abs/2410.00320v1)
 - **Description**: PointAD leverages CLIP for zero-shot anomaly detection by projecting 3D structures into 2D for easier anomaly recognition, based on 2D understanding.
 - **Evaluation**: Although the use of 2D projections can simplify the anomaly detection task, it inherently leads to a loss of 3D structural information, which limits the method's effectiveness in fully leveraging 3D data.
 
