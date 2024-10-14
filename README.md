@@ -8,7 +8,7 @@ We organize the repository into the following sections:
 - [Traditional Methods](#Traditional-method)
 - [LLM Methods](#LLM-method)
 
-
+---
 ## Datasets
 
 ### 1. MvTec3D-AD
@@ -41,6 +41,7 @@ We organize the repository into the following sections:
 - **Categories**: 40 object classes with 6 types of anomalies. Point clouds contain 8K-30K points.
 - **Link**: [Anomaly-ShapeNet Dataset (Github)](https://github.com/chopper-233/anomaly-shapenet)
 
+---
 ## Feature-Embedding-Methods
 
 ### 1. [PatchCore (Paper)](https://arxiv.org/abs/2106.08265)
