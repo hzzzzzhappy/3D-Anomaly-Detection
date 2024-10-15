@@ -28,7 +28,7 @@ We organize the repository into the following sections:
 - **Year**: 2021
 - **Description**: A real-world dataset with depth and RGB images of common objects like food and tools. The dataset is aligned, making it easier to use for anomaly detection tasks. Depth maps can be converted to 3D point clouds.
 - **Categories**: 10 object classes, each with 3-5 types of anomalies. Point clouds contain 10K-30K points.
-- **Link**: [MvTec 3D-AD Dataset](https://www.mvtec.com/company/research/datasets/mvtec-3d-ad)
+- **Link**: [MvTec 3D-AD Dataset (Page)](https://www.mvtec.com/company/research/datasets/mvtec-3d-ad)
 
 ### 2. Eyecandies
 - **Year**: 2022
