@@ -17,7 +17,7 @@ We organize the repository into the following sections:
 4. [BTF](#BTF): A classic paper on traditional methods, covering foundational algorithms and technical applications.
 5. [PointAD](#PointAD): A classic paper that uses LLM (Large Language Models), exploring the application of language models in problem-solving.
 
-**Disclaimer**: Our recommendations are based on papers with open-source code or methods. We have no conflicts of interest with most of the content, and these papers are provided solely for learning purposes for beginners. If you have a more classic paper, please contact us.
+***Disclaimer***: Our recommendations are based on papers with open-source code or methods. We have no conflicts of interest with most of the content, and these papers are provided solely for learning purposes for beginners. If you have a more classic paper, please contact us.
 ---
 ## Datasets
 
