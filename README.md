@@ -2,6 +2,7 @@
 Welcome to the **3D Anomaly Detection** repository! This GitHub repository is dedicated to collecting, organizing, and evaluating various methods used for 3D anomaly detection. If you find this repository helpful, please consider giving it a ⭐ Star! 
 
 If you have any questions, please contact us Worker email is: 2023362051@email.szu.edu.cn😊
+![3D Anomaly Detection](./3DANOMALYDETECTION.png)
 
 We organize the repository into the following sections: 
 
