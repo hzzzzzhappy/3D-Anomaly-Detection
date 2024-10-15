@@ -2,16 +2,6 @@
 Welcome to the **3D Anomaly Detection** repository! This GitHub repository is dedicated to collecting, organizing, and evaluating various methods used for 3D anomaly detection. If you find this repository helpful, please consider giving it a ⭐ Star!
 We organize the repository into the following sections: 
 
-🚀 **Recommended Papers for Beginners:**
-
-1. [Real3D-AD](#Real3D-AD): A dataset from real-world scenarios, suitable for research and applications in real environments.
-2. [Patchcore](#Patchcore(Paper)): A classic paper on memory-based methods, which explores memory management and storage techniques.
-3. [ShapeGuided](#ShapeGuided (Paper)) A classic paper on reconstruction methods, detailing image reconstruction and related technologies.
-4. [BTF](#BTF): A classic paper on traditional methods, covering foundational algorithms and technical applications.
-5. [PointAD](#PointAD): A classic paper that uses LLM (Large Language Models), exploring the application of language models in problem-solving.
-
-**Disclaimer**: Our recommendations are based on papers with open-source code or methods. We have no conflicts of interest with most of the content, and these papers are provided solely for learning purposes for beginners. If you have a more classic paper, please contact us.
-
 - [Datasets](#Datasets)
 - [Feature Embedding Methods](#Feature-Embedding-Methods)
 - [Reconstruction Methods](#Reconstruction-Methods)
