@@ -2,6 +2,18 @@
 Welcome to the **3D Anomaly Detection** repository! This GitHub repository is dedicated to collecting, organizing, and evaluating various methods used for 3D anomaly detection. If you find this repository helpful, please consider giving it a ⭐ Star!
 We organize the repository into the following sections: 
 
+🚀 **Recommended Papers for Beginners:**
+
+1. [Real3D-AD](#Real3D-AD): A dataset from real-world scenarios, suitable for research and applications in real environments.
+2. [Patchcore](#Patchcore(Paper)): A classic paper on memory-based methods, which explores memory management and storage techniques.
+3. [ShapeGuided](#ShapeGuided (Paper)) A classic paper on reconstruction methods, detailing image reconstruction and related technologies.
+4. [BTF](#BTF): A classic paper on traditional methods, covering foundational algorithms and technical applications.
+5. [PointAD](#PointAD): A classic paper that uses LLM (Large Language Models), exploring the application of language models in problem-solving.
+
+**Disclaimer**: Our recommendations are based on papers with open-source code or methods. We have no conflicts of interest with most of the content, and these papers are provided solely for learning purposes for beginners. If you have a more classic paper, please contact us.
+
+---
+
 - [Datasets](#Datasets)
 - [Feature Embedding Methods](#Feature-Embedding-Methods)
 - [Reconstruction Methods](#Reconstruction-Methods)
@@ -103,9 +115,12 @@ We organize the repository into the following sections:
 ## Traditional-method
 
 ### 1. [BTF (Paper)](https://arxiv.org/abs/2203.05550v3)
-- **Description**: BTF (Basic Tensor Field) is an analytical method that emphasizes the importance of 3D structure in anomaly detection. It directly computes feature descriptors using mathematical formulas without the need for training.
+- **Description**: BTF is an analytical method that emphasizes the importance of 3D structure in anomaly detection. It directly computes feature descriptors using mathematical formulas without the need for training.
 - **Evaluation**: As a traditional method, BTF underscores the critical role of 3D structural information in detecting anomalies. However, it lacks cross-sample robustness, which is a limitation of non-learning-based approaches in modern anomaly detection tasks.
 
+### 2.[3D-ST (Paper)](https://arxiv.org/abs/2202.11660v1)
+- **Description**: 3D-ST utilizes traditional descriptors based teacher-student networks for anomaly detection.
+- **Evaluation**: The teacher network attempts to restore the local receptive field, which provides feasibility for the teacher and student network in 3D anomaly detection.
 
 ---
 
@@ -115,4 +130,8 @@ We organize the repository into the following sections:
 ### 1. [PointAD (Paper)](https://arxiv.org/abs/2410.00320v1)
 - **Description**: PointAD leverages CLIP for zero-shot anomaly detection by projecting 3D structures into 2D for easier anomaly recognition, based on 2D understanding.
 - **Evaluation**: Although the use of 2D projections can simplify the anomaly detection task, it inherently leads to a loss of 3D structural information, which limits the method's effectiveness in fully leveraging 3D data.
+
+## 2. [GPT-4V(Review)](https://arxiv.org/abs/2311.02782v3)
+- **Description**: This paper reviews the many possibilities of GPT4V for anomaly detection, including 3D anomaly detection.
+- **Evaluation**: A comprehensive review of GPT-4V anomaly detection tasks.
 
