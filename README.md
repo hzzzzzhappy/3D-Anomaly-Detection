@@ -14,11 +14,11 @@ We organize the repository into the following sections:
 ---
 🚀 **Recommended Papers for Beginners:**
 
-1. [Real3D-AD](#4.Real3D-AD): A dataset from real-world scenarios, suitable for research and applications in real environments.
-2. [Patchcore](#1.Patchcore(Paper)): A classic paper on memory-based methods, which explores memory management and storage techniques.
-3. [ShapeGuided](#ShapeGuided (Paper)) A classic paper on reconstruction methods, detailing image reconstruction and related technologies.
-4. [BTF](#BTF (Paper)): A classic paper on traditional methods, covering foundational algorithms and technical applications.
-5. [PointAD](#PointAD (Paper)): A classic paper that uses LLM (Large Language Models), exploring the application of language models in problem-solving.
+1. [Real3D-AD](#Datasets): A dataset from real-world scenarios, suitable for research and applications in real environments.
+2. [Patchcore](#Feature-Embedding-Methods): A classic paper on memory-based methods, which explores memory management and storage techniques.
+3. [ShapeGuided](#Reconstruction-Methods) A classic paper on reconstruction methods, detailing image reconstruction and related technologies.
+4. [BTF](#Traditional-method): A classic paper on traditional methods, covering foundational algorithms and technical applications.
+5. [PointAD](#LLM-method): A classic paper that uses LLM (Large Language Models), exploring the application of language models in problem-solving.
    
 #### Disclaimer: Our recommendations are based on papers with open-source code or methods. We have no conflicts of interest with most of the content, and these papers are provided solely for learning purposes for beginners. If you have a more classic paper, please contact us.
 ---
