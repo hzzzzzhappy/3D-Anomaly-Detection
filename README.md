@@ -1,5 +1,8 @@
 # 3D Anomaly Detection Methods
-Welcome to the **3D Anomaly Detection** repository! This GitHub repository is dedicated to collecting, organizing, and evaluating various methods used for 3D anomaly detection. If you find this repository helpful, please consider giving it a ⭐ Star!
+Welcome to the **3D Anomaly Detection** repository! This GitHub repository is dedicated to collecting, organizing, and evaluating various methods used for 3D anomaly detection. If you find this repository helpful, please consider giving it a ⭐ Star! 
+
+If you have any questions, please contact us Worker email is: 2023362051@email.szu.edu.cn😊
+
 We organize the repository into the following sections: 
 
 - [Datasets](#Datasets)
@@ -16,8 +19,8 @@ We organize the repository into the following sections:
 3. [ShapeGuided](#ShapeGuided (Paper)) A classic paper on reconstruction methods, detailing image reconstruction and related technologies.
 4. [BTF](#BTF): A classic paper on traditional methods, covering foundational algorithms and technical applications.
 5. [PointAD](#PointAD): A classic paper that uses LLM (Large Language Models), exploring the application of language models in problem-solving.
-
-***Disclaimer***: Our recommendations are based on papers with open-source code or methods. We have no conflicts of interest with most of the content, and these papers are provided solely for learning purposes for beginners. If you have a more classic paper, please contact us.
+   
+#### Disclaimer: Our recommendations are based on papers with open-source code or methods. We have no conflicts of interest with most of the content, and these papers are provided solely for learning purposes for beginners. If you have a more classic paper, please contact us.
 ---
 ## Datasets
 
