@@ -105,7 +105,11 @@ We organize the repository into the following sections:
 - **Description**: SplatPose uses multi-view images to generate 3D images, comparing them with normal images to find anomalies.
 - **Evaluation**: The feasibility of 2Dto3D in anomaly detection was proved by an attempt using Gaussian spatter.
 
-### 4. [Uni-3DAD](https://arxiv.org/abs/2408.16201v1)
+### 4. [SplatPose++](https://arxiv.org/abs/2410.12080v1)
+- **Description**: SplatPose+ uses SfM and 3DGS for 3D reconstruction, with SfM extracting 3D structure and 3DGS generating novel views for pose-agnostic anomaly detection. This allows the system to compare query and reference images to detect anomalies.
+- **Evaluation**: SplatPose+ efficiently combines SfM and 3DGS for real-time, pose-agnostic 3D anomaly detection with superior accuracy and speed, but its reliance on additional SfM model computation may introduce complexity and limitations in scenes with insufficient reference views.
+
+### 5. [Uni-3DAD](https://arxiv.org/abs/2408.16201v1)
 - **Description**: Uni-3DAD integrates memory bank and reconstruction, with the emphasis on reconstruction. This paper is the first attempt to use reconstruction based on GAN inversion for anomaly detection on 3D point clouds.
 - **Evaluation**: Once a multi-stage model is used, the inference time load will increase. In addition, the reconstruction effect is unstable and needs to be verified.
 
