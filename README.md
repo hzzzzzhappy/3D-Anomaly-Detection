@@ -135,7 +135,11 @@ We organize the repository into the following sections:
 - **Description**: PointAD leverages CLIP for zero-shot anomaly detection by projecting 3D structures into 2D for easier anomaly recognition, based on 2D understanding.
 - **Evaluation**: Although the use of 2D projections can simplify the anomaly detection task, it inherently leads to a loss of 3D structural information, which limits the method's effectiveness in fully leveraging 3D data.
 
-## 2. [GPT-4V(Review)](https://arxiv.org/abs/2311.02782v3)
+### 2. [MVP (Paper)](https://arxiv.org/abs/2409.13162)
+-  **Description**: Multi-view projection is used to convert the 3D model into 2D, and anomaly detection is performed on 2D to further determine the anomaly points in 3D.
+- **Evaluation**: Since the large model VLMM used does not directly understand the 3D point cloud, it is necessary to perform modal transformation first. This leads to anomaly detection that is not straightforward. In addition, since VLM is not designed for 3DAD, VLM needs to be fine-tuned.
+
+## 3. [GPT-4V(Review)](https://arxiv.org/abs/2311.02782v3)
 - **Description**: This paper reviews the many possibilities of GPT4V for anomaly detection, including 3D anomaly detection.
 - **Evaluation**: A comprehensive review of GPT-4V anomaly detection tasks.
 
