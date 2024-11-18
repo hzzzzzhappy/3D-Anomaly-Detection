@@ -90,6 +90,8 @@ We organize the repository into the following sections:
 - **Description**: ShapeGuided utilizes both shape and appearance experts to jointly predict 3D and RGB anomalies. The method reconstructs signed distance functions (SDF) in the feature space using PointNet embeddings.
 - **Evaluation**: As an initial attempt at feature-space reconstruction, ShapeGuided benefits from the alignment in the MvTec3D-AD dataset, which simplifies the reconstruction process. However, its applicability to more complex datasets remains uncertain.
 
+### 2. [MDSS](https://arxiv.org/abs/2409.05378)
+- **Description**: Different from the memory-based method, it predicts the signed distance between the point and the surface through the teacher-student network.
 
 ### Reconstruction in Raw Point Clouds
 
