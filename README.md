@@ -115,6 +115,9 @@ We organize the repository into the following sections:
 - **Description**: Uni-3DAD integrates memory bank and reconstruction, with the emphasis on reconstruction. This paper is the first attempt to use reconstruction based on GAN inversion for anomaly detection on 3D point clouds.
 - **Evaluation**: Once a multi-stage model is used, the inference time load will increase. In addition, the reconstruction effect is unstable and needs to be verified.
 
+### 6. [Toward Unsupervised 3D Point Cloud Anomaly Detection using Variational Autoencoder](https://arxiv.org/abs/2304.03420)
+- **Description**: First paper using self-splitting encoders for anomaly detection.
+
 ---
 
 
