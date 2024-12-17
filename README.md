@@ -10,17 +10,6 @@ We organize the repository into the following sections:
 - [Reconstruction Methods](#Reconstruction-Methods)
 - [Traditional Methods](#Traditional-method)
 - [LLM Methods](#LLM-method)
-
----
-🚀 **Recommended Papers for Beginners:**
-
-1. [Real3D-AD](#Datasets): A dataset from real-world scenarios, suitable for research and applications in real environments.
-2. [Patchcore](#Feature-Embedding-Methods): A classic paper on memory-based methods, which explores memory management and storage techniques.
-3. [ShapeGuided](#Reconstruction-Methods) A classic paper on reconstruction methods, detailing image reconstruction and related technologies.
-4. [BTF](#Traditional-method): A classic paper on traditional methods, covering foundational algorithms and technical applications.
-5. [PointAD](#LLM-method): A classic paper that uses LLM (Large Language Models), exploring the application of language models in problem-solving.
-   
-#### Disclaimer: Our recommendations are based on papers with open-source code or methods. We have no conflicts of interest with most of the content, and these papers are provided solely for learning purposes for beginners. If you have a more classic paper, please contact us.
 ---
 ## Datasets
 ### 1. Real3D-AD
@@ -80,7 +69,9 @@ We organize the repository into the following sections:
 ### 6. [Looking3D (Paper)](https://arxiv.org/abs/2406.19393v1)
 - **Description**: Looking3D focuses on aligning 2D and 3D anomalies. It introduces a large dataset called BrokenChairs-180K, which pairs 180,000 2D images of defective objects with 3D shapes, enabling multimodal anomaly detection.
 - **Evaluation**: This method provides a significant contribution by emphasizing the relationship between 2D and 3D defects. However, the scale and complexity of the dataset suggest that this work may be geared towards preparing for large-scale model development in the future.
----
+
+### 7. [https://github.com/CVLAB-Unibo/crossmodal-feature-mapping?tab=readme-ov-file](https://github.com/CVLAB-Unibo/crossmodal-feature-mapping?tab=readme-ov-file)
+- **Description**: Anomaly detection is performed by using the difference of mutual projection between modes.
 
 ## Reconstruction-Methods
 
